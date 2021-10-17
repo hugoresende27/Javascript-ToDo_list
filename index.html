@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='estilo.css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
+    <title>ToDo List</title>
+</head>
+<body>
+
+    <header>
+        <h1>Lista de tarefas...</h1>
+    </header>
+
+    <form>
+        <input type="text" name="" id="" class='todo-input'>
+        <button class='todo-button' type='submit'>
+            <i class='fas fa-plus-circle'></i>
+        </button>
+
+        <div class='select'>
+            <select name='todos' class='filter-todo'>
+                <option value="all">Todas</option>
+                <option value="concluidas">Concluidas</option>
+                <option value="porfazer">Por fazer</option>
+            </select>
+        </div>
+    </form>
+
+    <div class='todo-container'>
+        <ul class='todo-list'></ul>
+
+        <!-- FEITO EM JS com função addTodo
+            <div class='todo'>
+            <li></li>
+            <button>Apagar</button>
+            <button>Feito</button>
+        </div> 
+    -->
+    </div>
+
+
+
+    <footer>
+        <p>Copyright 2021 - by Hugo Resende Products </p>
+        <a href="https://www.linkedin.com/in/hugo-resende-781ab1111/" target="blank"> LinkedIn </a> | <a href="https://github.com/hugoresende27" target="blank"> GitHub </a>
+    <script>
+        document.write("<p>Hoje é dia "+ Date());
+    </script>
+    <script src="script.js"></script> 
+    </footer>
+
+    <script src='app.js'></script>
+</body>
+</html>
