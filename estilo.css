@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body
 {
     background-image: linear-gradient(120deg,#f6d365,#d4461f);
@@ -32,6 +34,7 @@ form input,form button
     font-size: 2rem;
     border: none;
     background-color: rgb(247, 241, 231);
+    
 }
 form button
 {
@@ -116,10 +119,10 @@ form button:hover
 
   /* SELECT */
   select {
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
-    appearance: none;
+    appearance: none;*/
     outline: 0;
     box-shadow: none;
     border: 0 !important;
